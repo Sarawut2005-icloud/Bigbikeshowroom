@@ -71,15 +71,15 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
               <div className="flex items-center space-x-6 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2">
                   <Move3D className="w-4 h-4 text-primary" />
-                  <span>Drag to rotate</span>
+                  <span>ลากเพื่อหมุน</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <ZoomIn className="w-4 h-4 text-accent" />
-                  <span>Scroll to zoom</span>
+                  <span>เลื่อนเพื่อซูม</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <RotateCcw className="w-4 h-4 text-secondary" />
-                  <span>Click reset to center</span>
+                  <span>คลิกรีเซ็ตไปที่กึ่งกลาง</span>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
 
               {/* Key Specs */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-primary">Key Specifications</h3>
+                <h3 className="text-lg font-semibold text-primary">คุณสมบัติ</h3>
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="bg-muted/20 rounded-lg p-3">
                     <div className="text-muted-foreground">เครื่องยนต์</div>
@@ -134,7 +134,7 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
 
               {/* Description */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-primary">Description</h3>
+                <h3 className="text-lg font-semibold text-primary">คำอธิบาย</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {bike.description}
                 </p>
@@ -142,7 +142,7 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
 
               {/* Features */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-primary">Key Features</h3>
+                <h3 className="text-lg font-semibold text-primary">คุณสมบัติเด่น</h3>
                 <div className="flex flex-wrap gap-2">
                   {bike.features?.map((feature: string, index: number) => (
                     <span

@@ -13,7 +13,7 @@
     "year": 2025,
     "category": "Superbike",
     "model": "R1.glb",
-    "image": "/images/yamaha_r1.jpg",
+    "image": "/images/R1.jpg",
     "description": "พี่กระเบน (เป็นฉายาที่นิยมเรียกกันของ Yamaha R1)",
     "features": ["เครื่องยนต์แบบ Crossplane", "เซ็นเซอร์ IMU แบบ 6 แกน", "ระบบควบคุมการสไลด์", "ระบบช่วยออกตัว"]
   },
@@ -30,7 +30,7 @@
     "slug": "honda-cbr1000rr-r",
     "year": 2025,
     "category": "Superbike",
-    "model": "/models/honda_cbr1000rr.glb",
+    "model": "CBR1000RR.glb",
     "image": "/images/honda_cbr1000rr.jpg",
     "description": "Honda's most powerful production superbike ever, derived directly from RC213V MotoGP technology.",
     "features": ["Titanium Connecting Rods", "Track-focused Aerodynamics", "Öhlins Electronic Suspension", "Brembo Stylema Calipers"]
@@ -102,7 +102,7 @@
     "slug": "yamaha-r15-v4",
     "year": 2025,
     "category": "Sport",
-    "model": "/models/yamaha_r15.glb",
+    "model": "R15.glb",
     "image": "/images/yamaha_r15.jpg",
     "description": "The entry-level supersport that doesn't compromise on performance. R-series DNA in a lightweight package.",
     "features": ["Variable Valve Actuation", "Quickshifter", "Traction Control", "ABS"]

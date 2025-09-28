@@ -120,12 +120,9 @@ export default function Index() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="text-neon">Big</span>
-              <span className="text-neon-green">Bike</span>
-            </h1>
+            
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Experience the future of motorcycles with our premium collection of superbikes
+              
             </p>
             <motion.div
               initial={{ opacity: 0 }}
@@ -133,7 +130,7 @@ export default function Index() {
               transition={{ delay: 0.5 }}
               className="text-primary/60"
             >
-              Scroll to explore • {filteredBikes.length} bikes available
+              
             </motion.div>
           </motion.div>
         </div>
@@ -167,10 +164,10 @@ export default function Index() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold text-neon mb-4">
-              Our Collection
+              คอลเลกชันของเรา
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Discover our curated selection of premium motorcycles, each engineered for performance and style
+              ค้นพบมอเตอร์ไซค์ระดับพรีเมียมที่เราคัดสรรมาเป็นพิเศษ ซึ่งแต่ละคันได้รับการออกแบบเพื่อประสิทธิภาพและสไตล์
             </p>
           </motion.div>
 
@@ -181,8 +178,8 @@ export default function Index() {
               className="text-center py-20"
             >
               <div className="text-6xl text-primary/30 mb-4">🔍</div>
-              <h3 className="text-2xl font-bold text-muted-foreground mb-2">No bikes found</h3>
-              <p className="text-muted-foreground">Try adjusting your search or filter criteria</p>
+              <h3 className="text-2xl font-bold text-muted-foreground mb-2">ไม่พบจักรยายน</h3>
+              <p className="text-muted-foreground">พยายามหาด้วยคีย์เวิร์ด เช่น Yamaha,Honda,Kawasaki</p>
             </motion.div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

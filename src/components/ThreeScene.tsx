@@ -12,7 +12,7 @@ function Loader() {
       <div className="flex flex-col items-center">
         <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
         <div className="text-primary mt-4 font-mono">
-          Loading 3D Model... {Math.round(progress)}%
+          กำลังโหลดโมเดล.... {Math.round(progress)}%
         </div>
       </div>
     </Html>
@@ -236,7 +236,7 @@ export default function ThreeScene({ currentBike, scrollProgress, isDetailView =
           <GLTFBikeModel 
             modelPath={currentBike?.model || "/models/default.glb"}
             rotation={rotation}
-            scale={isDetailView ? 1.2 : 0.8}
+            scale={isDetailView ? 1.2 : 2}
             position={[0, isDetailView ? -0.5 : 0, 0]}
             isDetailView={isDetailView}
             bikeData={currentBike}
