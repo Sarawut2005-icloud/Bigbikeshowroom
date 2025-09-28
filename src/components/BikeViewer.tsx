@@ -96,9 +96,9 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
               {/* Price */}
               <div className="text-center">
                 <div className="text-3xl font-bold text-neon">
-                  ₹{(bike.price / 1000).toFixed(0)}K
+                  {(bike.price / 1).toFixed(0)} บาท
                 </div>
-                <div className="text-muted-foreground">onwards</div>
+                <div className="text-muted-foreground">ราคาไทย</div>
               </div>
 
               {/* Key Specs */}
@@ -106,27 +106,27 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
                 <h3 className="text-lg font-semibold text-primary">Key Specifications</h3>
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Engine</div>
+                    <div className="text-muted-foreground">เครื่องยนต์</div>
                     <div className="font-semibold">{bike.cc} CC</div>
                   </div>
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Power</div>
+                    <div className="text-muted-foreground">กำลังสูงสุด</div>
                     <div className="font-semibold text-accent">{bike.horsepower} HP</div>
                   </div>
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Torque</div>
+                    <div className="text-muted-foreground">แรงบิด</div>
                     <div className="font-semibold">{bike.torque}</div>
                   </div>
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Top Speed</div>
+                    <div className="text-muted-foreground">ความเร็วสูงสุด</div>
                     <div className="font-semibold text-destructive">{bike.topSpeed}</div>
                   </div>
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Weight</div>
+                    <div className="text-muted-foreground">น้ำหนัก</div>
                     <div className="font-semibold">{bike.weight}</div>
                   </div>
                   <div className="bg-muted/20 rounded-lg p-3">
-                    <div className="text-muted-foreground">Year</div>
+                    <div className="text-muted-foreground">ปี</div>
                     <div className="font-semibold">{bike.year}</div>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ export default function BikeViewer({ bike, isOpen, onClose }: BikeViewerProps) {
 
               {/* Action Button */}
               <Button variant="cyber" className="w-full">
-                Book Test Ride
+                จัดเลยหนู
               </Button>
             </div>
           </motion.div>

@@ -12,10 +12,10 @@
     "slug": "yamaha-r1",
     "year": 2025,
     "category": "Superbike",
-    "model": "/models/yamaha_r1.glb",
+    "model": "R1.glb",
     "image": "/images/yamaha_r1.jpg",
-    "description": "The legendary Yamaha R1, engineered for the track and refined for the street. Pure racing DNA in a superbike form.",
-    "features": ["Crossplane Crankshaft", "6-axis IMU", "Slide Control", "Launch Control"]
+    "description": "พี่กระเบน (เป็นฉายาที่นิยมเรียกกันของ Yamaha R1)",
+    "features": ["เครื่องยนต์แบบ Crossplane", "เซ็นเซอร์ IMU แบบ 6 แกน", "ระบบควบคุมการสไลด์", "ระบบช่วยออกตัว"]
   },
   {
     "id": 2,

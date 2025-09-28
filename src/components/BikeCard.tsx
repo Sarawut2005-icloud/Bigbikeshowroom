@@ -76,9 +76,9 @@ export default function BikeCard({ bike, onViewDetails, index }: BikeCardProps) 
             <div className="flex items-center justify-between">
               <div>
                 <span className="text-2xl font-bold text-neon">
-                  ₹{(bike.price / 1000).toFixed(0)}K
+                  {(bike.price / 1).toFixed(0)} บาท
                 </span>
-                <span className="text-muted-foreground ml-1">onwards</span>
+                <span className="text-muted-foreground ml-1">ราคาไทย</span>
               </div>
             </div>
 
